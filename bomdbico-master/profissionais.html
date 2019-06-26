@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/custom.css" >
+    <script src="mascara.min.js"></script>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <style>
@@ -48,7 +49,7 @@
                   <a href="contato.html" class="btn btn-light" style="margin: 0.5em"><i class="fa fa-phone-square" aria-hidden="true"></i> Contato</a>
               </li>
               <li class="nav-item">
-                <a href="#" data-toggle="modal" data-target="#modal-login" class="btn btn-light" style="margin: 0.5em"><i class="fa fa-user" aria-hidden="true"></i> Login</a>
+                <a href="#" data-toggle="modal" data-target="#modal-login" class="btn btn-light" style="margin: 0.5em"><i class="fa fa-user" aria-hidden="true"></i> Entrar</a>
               </li>
                 <li class="nav-item">
                   <a href="#" data-toggle="modal" data-target="#modal-cadastre-se" class="btn btn-light" style="margin: 0.5em"><i class="fa fa-clipboard-list" aria-hidden="true"></i> Cadastre-se</a>
@@ -271,7 +272,7 @@
               <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Login</h5>
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Entrar</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -279,9 +280,9 @@
                   <div class="modal-body">
                     <div class="card">
                             <div class="card-body">
-                              <h6 class="card-subtitle mb-2 text-muted">Informe login e senha abaixo para acessar o sistema</h6>
+                              <h6 class="card-subtitle mb-2 text-muted">Informe seu nome de usuário e senha abaixo para acessar o sistema</h6>
                               <div class="form-group">
-                                    <label for="login">Login:</label>
+                                    <label for="login">Nome de usuário:</label>
                                     <input type="text" class="form-control" id="login">
                               </div>
                               <div class="form-group" style="margin-bottom: -0.6em">
@@ -332,7 +333,7 @@
                               <input type="email" class="form-control" id="telefone" placeholder="exemplo@provedor.com">
                         </div>
                           <div class="form-group">
-                                <label for="login">Login:</label>
+                                <label for="login">Nome de usuário:</label>
                                 <input type="text" class="form-control" id="login">
                           </div>
                           <div class="form-group">
